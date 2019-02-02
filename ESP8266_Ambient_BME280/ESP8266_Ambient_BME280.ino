@@ -50,7 +50,7 @@ void loop() {
     rslt = bme280.get_sensor_data(&data);
     Serial.printf("%0.2f, %0.2f, %0.2f\r\n", data.temperature, data.humidity, data.pressure / 100);
 
-    // 温度、湿度、気圧、CO2、TVOCの値をAmbientに送信する
+    // 温度、湿度、気圧の値をAmbientに送信する
     ambient.set(1, String(data.temperature).c_str());
     ambient.set(2, String(data.humidity).c_str());
     ambient.set(3, String(data.pressure / 100).c_str());
