@@ -1,6 +1,7 @@
 #ifndef BME280_i2c_H
 #define BME280_i2c_H
 
+#include <Arduino.h>
 #include <Wire.h>
 #include "bme280.h"
 
@@ -17,4 +18,3 @@ private:
 };
 
 #endif // BME280_i2c_H
-
