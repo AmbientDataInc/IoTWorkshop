@@ -1,4 +1,4 @@
-# IoTワークショップ(ESP8266)
+# IoTワークショップ(ESP32)
 
 ## Arduino IDEに追加するESP32のURL
 
