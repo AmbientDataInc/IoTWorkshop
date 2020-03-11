@@ -1,8 +1,8 @@
 #include <M5Stack.h>
 #include <WiFi.h>
 
-const char* ssid = "Buffalo-G-8080";    // この場所のSSID（2.4GHzの）
-const char* password = "duftsfmu7fg4s";    // SSIDに対応するパスワード
+const char* ssid = "myssid";    // この場所のSSID（2.4GHzの）
+const char* password = "password";    // SSIDに対応するパスワード
 
 void setup() {
     M5.begin();

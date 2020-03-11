@@ -7,11 +7,11 @@
 
 SHT35 sensor(SCLPIN);
 
-const char* ssid = "Buffalo-G-8080";    // この場所のSSID（2.4GHzの）
-const char* password = "duftsfmu7fg4s";    // SSIDに対応するパスワード
+const char* ssid = "myssid";    // この場所のSSID（2.4GHzの）
+const char* password = "password";    // SSIDに対応するパスワード
 
-unsigned int channelId = 703;
-const char* writeKey = "e0c7ad16789b2eb3";
+unsigned int channelId = 100;
+const char* writeKey = "writeKey";
 
 WiFiClient client;
 Ambient am;  // Ambientオブジェクトを作る
